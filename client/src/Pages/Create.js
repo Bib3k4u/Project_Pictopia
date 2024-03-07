@@ -43,7 +43,7 @@ const Create = () => {
     formData.append('username', username);
     formData.append('caption', caption);
 
-    fetch('http://localhost:5000/api/upload', {
+    fetch('https://project-pictopia-2.onrender.com/api/upload', {
       method: 'POST',
       body: formData
     })

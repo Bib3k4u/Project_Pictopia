@@ -9,7 +9,7 @@ const Home = () => {
     useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await fetch('http://localhost:5000/api/images');
+                const response = await fetch('https://project-pictopia-2.onrender.com/api/images');
                 const newData = await response.json();
 
                 // Update the state with the new data
